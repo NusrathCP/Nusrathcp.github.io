@@ -1,0 +1,19 @@
+div{
+    width: 400px;
+    height: 400px;
+    padding:10px;
+    align-content: center;
+    background-color:rgb(239, 246, 160);
+    animation-name: example;
+    animation-duration:20s ;
+}
+p{
+    align-items: center;
+    font-size: 50px;
+    color: blue;
+    text-align: center;
+}
+@keyframes example{
+    from {background-color:rgb(233, 248, 26);}
+    to {background-color:rgb(254, 10, 10);}
+}
